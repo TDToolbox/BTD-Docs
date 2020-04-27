@@ -18,7 +18,7 @@ Open GitHub For Desktop, in the toolbar at the top `File -> Clone Repository` an
 The repository should now be cloned, Open the repository in Visual Studio Code. In the toolbar at the top `File -> Open Folder` then navigate to the repo (Probably `C:\Users\YourUserName\source\repos\`. )  
 Make your changes...  
 Click on the window on the left bar of Visual Studio code called `"Source Control"` (Alternatively press `Ctrl + Shift + G`)  
-To save a new version, click on the ellipsis (`...`) at the top and click `Commit all`. This will effectively "Save As" a copy of your changes. Click `"Always"` to the popup and add a commit message such as `"Added brief tutorial to README.md"`   
+To save a new version, click on the ellipsis (`...`) at the top and click `Commit all`. This will effectively "Save As" a copy of your changes. Click `"Always"` to the popup and add a commit message such as `"Added brief tutorial to README.md"`  
 To share these changes to the world & receive updates, click on the ellipsis (`...`) again and click `Sync`  
 
 ### Using Markdown
