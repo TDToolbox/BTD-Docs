@@ -4,6 +4,8 @@ This is for wiki pages relating to the set of libraries Ninja Kiwi has built aro
 
 ## NK Unity Engine Documentation
 
+[Structure](structure.md)
+
 ## [Bloons Tower Defense 6](btd6/index.md)
 
 ## [Bloons Adventure Time Tower Defense](battd/index.md)
