@@ -89,7 +89,7 @@ Status: UnUnconfirmed
 ### GetTowerInfo
 ```
 Signature: void * __thiscall GetTowerInfo(CTowerFactory *this, uint towerType, uint towerType)
-AOB: 55 8B EC 6A FF 68 28 14 ?? ?? ?? A1 00 00 00 00 50 83 EC 24 A1 34 B0 71 01 33 C5 89 45 F0 56 50 8D 45 F4 64 A3 00 00 00 00 8B F1 8B
+AOB: 55 8B EC 6A FF 68 ?8 1? ?? ?? ?? A1 00 00 00 00 50 83 EC 24 A1 34 B0 ?? 01 33 C5 89 45 F0 56 50 8D 45 F4 64 A3 00 00 00 00 8B F1 8B
 Last checked: 3.24.1
 Status: Unconfirmed
 ```
