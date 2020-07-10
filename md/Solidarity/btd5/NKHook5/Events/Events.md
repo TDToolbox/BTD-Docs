@@ -31,3 +31,29 @@ onKey(fun(key)
 	}
 });
 ```
+
+## onBloonEscaped
+This event is triggered when a bloon escapes through your towers and takes health.
+
+Example:
+```
+//Called when a bloon escapes
+onBloonEscaped(fun(event)
+{
+	//Get game data "getGame().getCGameSystemPointers().getGameData()"
+	var gameData := lhcm_ptrs.getGameData();
+	//Check to make sure its not null, if it is the game will crash
+	if(!is_var_null(gameData))
+	{
+		//Set cash to cash - the escaped bloon's damage
+		gameData.setCash(gameData.getCash()-event.getEscapedBloon().getBloonData().getDamage());
+		//If cash is less than or equal to 0
+		if(gameData.getCash() <= 0){
+			//Kill the player
+			gameData.setHealth(0)
+		}
+	}
+});
+```
+
+This example will cause the player to lose money when a bloon escapes. This won't prevent the player from losing health, you'll have to prevent that yourself if you want to.
