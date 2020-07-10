@@ -1,0 +1,2 @@
+# NKHook5 Documentation
+This area has all the documentation needed to use NKHook5 to its full potential. This section will specifically focus on [NKH Blue](https://github.com/DisabledMallis/NKHook5/blob/master/NKHook5/NKHook5/NKH/Blue/NKH_Blue.md). For technical information on how NKHook5 works, consider checking out the [source code](https://github.com/DisabledMallis/NKHook5).
