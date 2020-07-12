@@ -72,7 +72,7 @@ path - The upgraded path
 */
 onTowerUpgrade(fun(towerManager, tower, path)
 {
-    if(path == 0)
+	if(path == 0)
 	{
 		print("Left path was upgraded!");
 	}
