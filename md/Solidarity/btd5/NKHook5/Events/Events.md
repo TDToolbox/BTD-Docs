@@ -57,3 +57,25 @@ onBloonEscaped(fun(event)
 ```
 
 This example will cause the player to lose money when a bloon escapes. This won't prevent the player from losing health, you'll have to prevent that yourself if you want to.
+
+
+## onTowerUpgrade
+This event is triggered when a Tower is upgraded.
+
+Example:
+```
+//Called when a Tower is upgraded
+/*
+towerManager - The CTowerManager
+tower - The upgraded tower
+path - The upgraded path
+*/
+onTowerUpgrade(fun(towerManager, tower, path){
+    if(path == 0){
+		print("Left path was upgraded!");
+	}
+	if(path == 1){
+		print("Right path was upgraded!");
+	}
+});
+```
