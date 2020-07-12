@@ -70,11 +70,14 @@ towerManager - The CTowerManager
 tower - The upgraded tower
 path - The upgraded path
 */
-onTowerUpgrade(fun(towerManager, tower, path){
-    if(path == 0){
+onTowerUpgrade(fun(towerManager, tower, path)
+{
+    if(path == 0)
+	{
 		print("Left path was upgraded!");
 	}
-	if(path == 1){
+	if(path == 1)
+	{
 		print("Right path was upgraded!");
 	}
 });
