@@ -26,8 +26,8 @@ Status: Unconfirmed
 ### UpdateSpriteGraphic
 ```
 Signature: void __thiscall UpdateSpriteGraphic(CTowerFactory *this, CBaseTower *tower, STowerInfo* towerInfo)
-AOB: 55 8b ec 6a ff 68 54 8e
-Last checked: 3.24.1 (21202)
+AOB: 55 8b ec 6a ff 68 D4 ?? ?? ?? 64 A1 00 00 00 00 50 83 EC 6C A1 34 B0 52
+Last checked: 3.25 (21202)
 Status: Unconfirmed
 ```
 ### CalculateUpgradePrice
