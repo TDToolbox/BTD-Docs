@@ -156,3 +156,10 @@ AOB: 55 8b ec 83 e4 f8 83 ec 0c f3
 Last checked: 3.24.1
 Status: Unconfirmed
 ```
+### EndFrame
+```
+Signature: void __thiscall EndFrame(WinRenderLayer* this)
+AOB: e8 ?b 4? 04 00 e8 ?6
+Last checked: 3.25 (21423)
+Status: Unconfirmed
+```
