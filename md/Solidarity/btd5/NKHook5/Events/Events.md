@@ -84,12 +84,29 @@ onTowerUpgrade(fun(towerManager, tower, path)
 ```
 
 
-## onConsoleInput
-This event is triggered when a game is started 
+## onGameDataInitialized
+This event is triggered when you start a new game
 
 Example:
 ```
-//Called when a Tower is upgraded
+onGameDataInitialized(fun()
+{
+	//Sets the cash to 9999 when you first start a game
+	var gameData = getGame().getCGameSystemPointers().getGameData();
+	gameData.setCash(9999);
+});
+```
+
+In this example, your cash will be set to 9999 when you begin a new game
+
+
+
+## onConsoleInput
+This event is triggered when you type into the command window and press enter
+
+Example:
+```
+//Called when you type into the command window
 /*
 text - The text typed into the console window
 */
