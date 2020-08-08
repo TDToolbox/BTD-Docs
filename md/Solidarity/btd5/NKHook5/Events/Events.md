@@ -84,7 +84,7 @@ onTowerUpgrade(fun(towerManager, tower, path)
 ```
 
 
-## onGameDataInitialized
+## onConsoleInput
 This event is triggered when a game is started 
 
 Example:
@@ -93,7 +93,7 @@ Example:
 /*
 text - The text typed into the console window
 */
-onGameDataInitialized(fun(text)
+onConsoleInput(fun(text)
 {
 	if(text == "hello"){
 		print("Hi!");
