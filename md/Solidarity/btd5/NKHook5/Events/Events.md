@@ -82,3 +82,23 @@ onTowerUpgrade(fun(towerManager, tower, path)
 	}
 });
 ```
+
+
+## onGameDataInitialized
+This event is triggered when a game is started 
+
+Example:
+```
+//Called when a Tower is upgraded
+/*
+text - The text typed into the console window
+*/
+onGameDataInitialized(fun(text)
+{
+	if(text == "hello"){
+		print("Hi!");
+	}
+});
+```
+
+In this example, if you were to type "hello" into the command window, it would print "Hi!" back to you.
