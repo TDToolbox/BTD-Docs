@@ -170,6 +170,13 @@ AOB: 56 57 8b f9 0f 57 c0 8d
 Last checked: 3.25 (21423)
 Status: Unconfirmed
 ```
+### CRenderableTextureObject
+```
+Signature: void __thiscall CRenderableTextureObject(CRenderableTextureObject* this)
+AOB: 56 8b f1 e8 ?? ?? ?? ?? a0
+Last checked: 3.25 (21423)
+Status: Unconfirmed
+```
 ### CBaseTower
 ```
 Signature: void __thiscall CBaseTower(CBaseTower* this)
