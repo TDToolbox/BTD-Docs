@@ -163,3 +163,17 @@ AOB: e8 ?b 4? 04 00 e8 ?6
 Last checked: 3.25 (21423)
 Status: Unconfirmed
 ```
+### CBasePositionableObject
+```
+Signature: void __thiscall CBasePositionableObject(CBasePositionableObject* this)
+AOB: 56 57 8b f9 0f 57 c0 8d
+Last checked: 3.25 (21423)
+Status: Unconfirmed
+```
+### CBaseTower
+```
+Signature: void __thiscall CBaseTower(CBaseTower* this)
+AOB: 50 51 56 a1 ?? ?? ?? ?? 33 c5 50 8d 45 f4 64 a3 00 00 00 00 8b f1 89 75 f0 e8 ?? ?? ?? ?? c7 45 fc 00 00 00 00 c7 86 a8
+Last checked: 3.25 (21423)
+Status: Unconfirmed
+```
