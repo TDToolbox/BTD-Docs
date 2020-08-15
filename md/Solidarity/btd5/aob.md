@@ -177,10 +177,24 @@ AOB: 56 8b f1 e8 ?? ?? ?? ?? a0
 Last checked: 3.25 (21423)
 Status: Unconfirmed
 ```
+### CTextObject
+```
+Signature: void __thiscall CTextObject(CTextObject* this, Vector2* position, shared_ptr<CFont> Font, string* text)
+AOB: 55 8b ec 6a ff 68 ?? ?? ?? ?? 64 a1 00 00 00 00 50 83 ec 30 a1 ?? ?? ?? ?? 33 c5 89 45 ec 53 56 57 50 8d 45 f4 64 a3 00 00 00 00 8b f1 89 75 d0
+Last checked: 3.25 (21423)
+Status: Unconfirmed
+```
 ### CBaseTower
 ```
 Signature: void __thiscall CBaseTower(CBaseTower* this)
 AOB: 50 51 56 a1 ?? ?? ?? ?? 33 c5 50 8d 45 f4 64 a3 00 00 00 00 8b f1 89 75 f0 e8 ?? ?? ?? ?? c7 45 fc 00 00 00 00 c7 86 a8
+Last checked: 3.25 (21423)
+Status: Unconfirmed
+```
+### GetFont
+```
+Signature: void __thiscall GetFont(GetFont* this, string* font)
+AOB: 55 8b ec 83 ec 0c 53 8b ?? ?? 56 57 8d 79
 Last checked: 3.25 (21423)
 Status: Unconfirmed
 ```
