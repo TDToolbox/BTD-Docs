@@ -179,7 +179,7 @@ Status: Unconfirmed
 ```
 ### CTextObject
 ```
-Signature: void __thiscall CTextObject(CTextObject* this, Vector2* position, shared_ptr<CFont> Font, string* text)
+Signature: void __thiscall CTextObject(CTextObject* this, Vector2* position, shared_ptr<CFont> Font, string* text) //void CTextObject(CTextObject* self, Vector2* position, CFont** font, string* text)
 AOB: 55 8b ec 6a ff 68 ?? ?? ?? ?? 64 a1 00 00 00 00 50 83 ec 30 a1 ?? ?? ?? ?? 33 c5 89 45 ec 53 56 57 50 8d 45 f4 64 a3 00 00 00 00 8b f1 89 75 d0
 Last checked: 3.25 (21423)
 Status: Unconfirmed
@@ -196,5 +196,19 @@ Status: Unconfirmed
 Signature: void __thiscall GetFont(GetFont* this, string* font)
 AOB: 55 8b ec 83 ec 0c 53 8b ?? ?? 56 57 8d 79
 Last checked: 3.25 (21423)
+Status: Unconfirmed
+```
+### GetSpriteInfoPtr
+```
+Signature: ???
+AOB: 55 8b ec 6a ff 68 ?? ?? ?? ?? 64 a1 00 00 00 00 50 81 ec 88 00 00 00 a1 ?? ?? ?? ?? 33 c5 89 45 f0 53 56 57 50 8d 45 f4 64 a3 00 00 00 00 8b c1
+Last checked: 3.25 (21423)
+Status: Unconfirmed
+```
+### CGameModeAddonScreen::PlayGame
+```
+Signature: void __thiscall PlayGame(CGameModeAddonScreen *this,eGameDifficulty param_1,eGameModes param_2,bool param_3)
+AOB: 55 8b ec 6a ff 68 ?? ?? ?? ?? 64 a1 00 00 00 00 50 83 ec 68 ?? ?? ?? ?? 00 33 c5 89 45 f0 53 56 57 50 8d 45 f4 64 a3 00 00 00 00 8b f1 8d 86 e0
+Last checked: 3.26 (21504)
 Status: Unconfirmed
 ```
