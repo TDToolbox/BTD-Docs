@@ -1,4 +1,5 @@
 # BTD Documentation
+This repository is for documenting anything related to NK modding
 
 ## Contributing
 
