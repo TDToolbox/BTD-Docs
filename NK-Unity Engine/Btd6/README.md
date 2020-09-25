@@ -23,7 +23,7 @@ The most significant advancement in BTD6/BATTD was the discovery of MelonLoader,
 
 #### NKHook6:
 NKHook6 comes with a lot of the necessary tools and features you'll need to use in your mods. Here are some examples:
-- A lightweight scripting language called Boo, which allows you to make mods even easier than you can already
+- A lightweight scripting language called Boo, which allows you to make mods even easier than you can already. Can also be extended to work with Python and JavaScript
 - Update notifications so your users can be notified if your mods have an update available
 - Simplistic settings manager that allows your mods to have configurable settings both in game and out of game
 - A built-in event system for hooking the game's code easier and quicker with less work. Similar to Bukkit's event system with Minecraft
