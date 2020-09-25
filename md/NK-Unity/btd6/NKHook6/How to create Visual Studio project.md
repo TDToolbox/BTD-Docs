@@ -5,7 +5,7 @@ After doing the steps above you'll need to download [Visual Studio](https://visu
 
 **To Do at a glance:**
 1. Get [.Net Framework 4.7.2 or higher](https://dotnet.microsoft.com/download/dotnet-framework)
-2. Get our [Mod Manager for BTD6 and BTDAT](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/latest), or download [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/latest) and [NKHook6](https://github.com/TDToolbox/NKHook6/releases/latest) manually
+2. Get our [Mod Manager for BTD6 and BTDAT](https://github.com/TDToolbox/BTD6-Mod-Manager/releases/latest) which comes with all necessary files, or download [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/latest) and [NKHook6](https://github.com/TDToolbox/NKHook6/releases/latest) manually
 3. Get [DnSpy](https://github.com/0xd4d/dnSpy/releases/latest)
 4. Download [Visual Studio Community or better](https://visualstudio.microsoft.com/)
 
