@@ -2,7 +2,7 @@
 These wiki pages are relating to all of NinjaKiwi's games that use Unity Engine (BTD6, BATTD, TowerKeepers, etc)
 
 
-## Table of contents
+## Table of contents:
 
 ## [Structure of NK Unity games](NK-Unity/Structure_of_NK_Unity_games.md)
 
