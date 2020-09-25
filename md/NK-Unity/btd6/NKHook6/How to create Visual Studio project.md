@@ -26,6 +26,8 @@ Next you will see this window. At the top searc for "Class Library" and **make s
 ![CreateProject menu.png](https://cdn.discordapp.com/attachments/619054151967703061/759107756543705148/unknown.png)
 
 ### Congrats! You've finished making your first project
+You're now ready to start making mods!
+
 
 ## Having issues?
 1. Make sure you have the latest [.Net Framework](https://dotnet.microsoft.com/download/dotnet-framework). You need at least .NET Framework 4.7.2 and up
