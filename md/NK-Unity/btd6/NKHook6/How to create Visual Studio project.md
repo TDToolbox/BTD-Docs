@@ -24,4 +24,5 @@ Next you will see this window. At the top searc for "Class Library" and **make s
 ## Having issues?
 1. Make sure you have the latest [.Net Framework](https://dotnet.microsoft.com/download/dotnet-framework). You need at least .NET Framework 4.7.2 and up
 2. Make sure you get [Visual Studio Community Edition](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16). If you're making your mod using C# and not one of the other scripting methods, you **CAN'T** use Visual Studio Code, and you **HAVE** to use Visual Studio Community and better.
-3. If our Mod Manager is not working for you, download MelonLoader [manually](https://github.com/HerpDerpinstine/MelonLoader/releases/latest)
+3. If our Mod Manager is not working for you, download MelonLoader [manually](https://github.com/HerpDerpinstine/MelonLoader/releases/latest) and extract all of the files into your BTD6/BTDAT folder, so the files are in the same folder as the EXE for the game.
+4. Can't find your game's EXE? Check out this [link](https://steamcommunity.com/sharedfiles/filedetails/?id=760447682) to learn how to access your game's files
