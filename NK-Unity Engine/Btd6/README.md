@@ -3,6 +3,16 @@ These wiki pages are all about modding BTD6!
 
 BTD6 was made by NinjaKiwi. Unlike BTD5-era games which were made in C++ using NK's [solidarity game engine](https://github.com/TDToolbox/BTD-Docs/tree/master/BTD5%20Engine), BTD6 was made in C# using Unity Engine. This means that the methods of modding the newer games are radically different from previous methods of modding and required modders to think outside of the box to accomplish very small changes to the game. 
 
+
+## Currently there are 4 main ways to mod BTD6
+From easiest to hardest, they are:
+
+1. MelonLoader/NKHook6
+2. BTD6api
+3. GameAssembly.dll modding
+4. Assembly modding
+
+
 ### BTD6 Modding History
 In the beginning the only methods of modding were Assembly modding and GameAssembly.dll modding. These are unsustainable and very crude methods of modding and as such only skilled programmers could use them. Additionally, it took much effor to make *very* basic mods. Fast forward a year and a half and [Bowdown](https://github.com/BowDown097/BTD6API) and [Danny Parker](https://github.com/DannyParker0001) worked together to make BTD6api. 
 
@@ -18,15 +28,6 @@ NKHook6 comes with a lot of the necessary tools and features you'll need to use 
 • A built-in event system for hooking the game's code easier and quicker with less work. Similar to Bukkit's event system with Minecraft
 
 
-
-
-### Currently there are 4 main ways to mod BTD6
-From easiest to hardest, they are:
-
-1. MelonLoader/NKHook6
-2. BTD6api
-3. GameAssembly.dll modding
-4. Assembly modding
 
 
 ## MelonLoader/NKHook6
