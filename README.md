@@ -1,8 +1,8 @@
 # BTD Documentation
 This repository is for documenting anything related to NK modding
 
-Solidarity - The name for the BTD5/BTDB/BMC/SAS4 engine/shared code. I'm not entirely sure where the name came from, but unless somebody can verify an actual name for the engine, the wiki will be sticking with it.  
-NK Unity - The set of Libs NK uses for BTD6/TK/BATTD
+-Solidarity - The name for the BTD5/BTDB/BMC/SAS4 engine/shared code. I'm not entirely sure where the name came from, but unless somebody can verify an actual name for the engine, the wiki will be sticking with it.  
+-NK Unity - The set of Libs NK uses for BTD6/TK/BATTD
 
 ## Documentation Status
 
