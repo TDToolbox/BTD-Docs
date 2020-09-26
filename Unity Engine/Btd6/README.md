@@ -1,11 +1,11 @@
 # Bloons Tower Defense 6
 These wiki pages are all about modding BTD6! This page is focused on making BTD6 mods with NKHook6 and MelonLoader
 
-BTD6 was made by NinjaKiwi. Unlike BTD5-era games which were made in C++ using NK's [solidarity game engine](https://github.com/TDToolbox/BTD-Docs/tree/master/BTD5%20Engine), BTD6 was made in C# using Unity Engine. This means that the methods of modding the newer games are radically different from previous methods of modding and required modders to think outside of the box to accomplish very small changes to the game. 
+BTD6 was made by NinjaKiwi. Unlike BTD5-era games which were made in C++ using NK's [solidarity game engine](https://github.com/TDToolbox/BTD-Docs/tree/master/BTD5%20Engine), BTD6 is made in C# using Unity Engine. This means that the methods of modding the newer games are radically different from previous methods of modding and required modders to think outside of the box to accomplish very small changes to the game. While it was a difficult challange we've managed to overcome it.
 
 ## Quick Access
-- If you want to make mods for BTD6 using our api NKHook6, go [here](https://github.com/TDToolbox/BTD-Docs/tree/master/NK-Unity%20Engine/Btd6/NKHook6) **(recommended)**
-- If you want to use MelonLoader to make your mods, go [here](https://github.com/TDToolbox/BTD-Docs/tree/master/NK-Unity%20Engine/MelonLoader)
+- If you want to make mods for BTD6 using our api NKHook6, go [here](NKHook6) **(recommended)**
+- If you want to use MelonLoader to make your mods, go [here](https://github.com/TDToolbox/BTD-Docs/tree/master/Unity%20Engine/MelonLoader)
 
 ## Currently there are 4 main ways to mod BTD6
 From easiest to hardest, they are:
@@ -26,10 +26,11 @@ The most significant advancement in BTD6/BATTD was the discovery of MelonLoader,
 
 #### NKHook6:
 NKHook6 comes with a lot of the necessary tools and features you'll need to use in your mods. Here are some examples:
-- A lightweight python-styled scripting language called Boo, which allows you to make mods even easier than you can already
+- A lightweight python-like scripting language called Boo, which allows you to make mods even easier than you can already
 - Update notifications so your users can be notified if your mods have an update available
 - Simplistic settings manager that allows your mods to have configurable settings both in game and out of game
-- A built-in event system for hooking the game's code easier and quicker with less work. Similar to Bukkit's event system with Minecraft
+- Built-in event system for hooking the game's code easier and quicker with less work. Similar to Bukkit's event system with Minecraft
+- A logging system that looks nice and can send messages to user in multiple ways, including in game.
 
 ## How to get started
 Before you can get started making mods for BTD6 you need to decide how you want to make them. It is recommended that you use NKHook6 or MelonLoader as it is the best method currently availible. Alternatively you can check out some of the other methods for BTD6 modding included in our BTD Docs repo
