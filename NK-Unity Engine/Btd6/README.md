@@ -37,3 +37,7 @@ Before you can get started making mods for BTD6 you need to decide how you want 
 ### What would you like to do?
 - If you want to make mods for BTD6 using our api NKHook6, go [here](https://github.com/TDToolbox/BTD-Docs/tree/master/NK-Unity%20Engine/Btd6/NKHook6) **(recommended)**
 - If you want to use MelonLoader to make your mods, go [here](https://github.com/TDToolbox/BTD-Docs/tree/master/NK-Unity%20Engine/MelonLoader)
+
+
+#### Contact us
+If you want to contact us about BTD6 modding you can join our [NKHook6](https://discord.gg/VADMF2M) discord server. Alternatively you can join our [TD Toolbox](https://discord.gg/jj5Q7mA) discord server which is the hub for all of our BTD Modding projects
