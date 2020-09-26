@@ -9,20 +9,20 @@ NK Unity - The set of Libs NK uses for BTD6/TK/BATTD
 This page can be used to track the documentation of BTD. If your working on a page, add it to here.
 
 
-#### [BTD6](NK-Unity/btd6/index.md)
+#### [BTD6](Unity_Engine/Btd6)
 
-Nothing BTD6 Specific documented yet.
+All info releating to BTD6 modding can be found here
 
-#### [BATTD](NK-Unity/battd/index.md)
+#### [BATTD](Unity_Engine/Battd)
 
-Nothing BATTD Specific documented yet.
+There is some info relating to BATTD modding here. It's the same as modding BTD6 so go to BTD6 modding for more info
 
-#### [Tower Keepers](NK-Unity/tk/index.md)
+#### [Tower Keepers](Unity_Engine/tk)
 
 Nothing Tower Keepers Specific documented yet.
 
 
-### [NK Unity](NK-Unity Engine/index.md)
+### [NK Unity](Unity_Engine)
 
 No work has been done documented NK's Unity engine yet.
 
