@@ -4,7 +4,7 @@ These wiki pages are relating to all of NinjaKiwi's games that use Unity Engine 
 
 ## Table of contents:
 
-## [Bloons Tower Defense 6](btd6)
+## [Bloons Tower Defense 6](Btd6)
 
 ## [Structure of NK Unity games](NK-Unity_Engine/Structure_of_NK_Unity_games.md)
 
