@@ -1,11 +1,12 @@
 # Bloons Tower Defense 6
-These wiki pages are all about modding BTD6!
+These wiki pages are all about modding BTD6! This page is focused on making BTD6 mods with NKHook6 and MelonLoader
 
 BTD6 was made by NinjaKiwi. Unlike BTD5-era games which were made in C++ using NK's [solidarity game engine](https://github.com/TDToolbox/BTD-Docs/tree/master/BTD5%20Engine), BTD6 was made in C# using Unity Engine. This means that the methods of modding the newer games are radically different from previous methods of modding and required modders to think outside of the box to accomplish very small changes to the game. 
 
 ## Quick Access
 - If you want to make mods for BTD6 using our api NKHook6, go [here](https://github.com/TDToolbox/BTD-Docs/tree/master/NK-Unity%20Engine/Btd6/NKHook6) **(recommended)**
 - If you want to use MelonLoader to make your mods, go [here](https://github.com/TDToolbox/BTD-Docs/tree/master/NK-Unity%20Engine/MelonLoader)
+
 ## Currently there are 4 main ways to mod BTD6
 From easiest to hardest, they are:
 
@@ -30,3 +31,9 @@ NKHook6 comes with a lot of the necessary tools and features you'll need to use 
 - Simplistic settings manager that allows your mods to have configurable settings both in game and out of game
 - A built-in event system for hooking the game's code easier and quicker with less work. Similar to Bukkit's event system with Minecraft
 
+## How to get started
+Before you can get started making mods for BTD6 you need to decide how you want to make them. It is recommended that you use NKHook6 or MelonLoader as it is the best method currently availible. Alternatively you can check out some of the other methods for BTD6 modding included in our BTD Docs repo
+
+### What would you like to do?
+- If you want to make mods for BTD6 using our api NKHook6, go [here](https://github.com/TDToolbox/BTD-Docs/tree/master/NK-Unity%20Engine/Btd6/NKHook6) **(recommended)**
+- If you want to use MelonLoader to make your mods, go [here](https://github.com/TDToolbox/BTD-Docs/tree/master/NK-Unity%20Engine/MelonLoader)
