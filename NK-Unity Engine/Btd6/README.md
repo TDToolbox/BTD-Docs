@@ -3,7 +3,9 @@ These wiki pages are all about modding BTD6!
 
 BTD6 was made by NinjaKiwi. Unlike BTD5-era games which were made in C++ using NK's [solidarity game engine](https://github.com/TDToolbox/BTD-Docs/tree/master/BTD5%20Engine), BTD6 was made in C# using Unity Engine. This means that the methods of modding the newer games are radically different from previous methods of modding and required modders to think outside of the box to accomplish very small changes to the game. 
 
-
+## Quick Access
+- If you want to make mods for BTD6 using our api NKHook6, go [here](https://github.com/TDToolbox/BTD-Docs/tree/master/NK-Unity%20Engine/Btd6/NKHook6) **(recommended)**
+- If you want to use MelonLoader to make your mods, go [here](https://github.com/TDToolbox/BTD-Docs/tree/master/NK-Unity%20Engine/MelonLoader)
 ## Currently there are 4 main ways to mod BTD6
 From easiest to hardest, they are:
 
