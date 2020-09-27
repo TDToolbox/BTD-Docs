@@ -1,7 +1,6 @@
-﻿using Assets.Scripts.Utils;
+using Assets.Scripts.Utils;
 using MelonLoader;
 using NKHook6.Api.Events;
-using NKHook6.Api.Events._TimeManager;
 using static NKHook6.Api.Events._TimeManager.TimeManagerEvents;
 
 namespace BetterFastForward
