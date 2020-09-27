@@ -45,7 +45,7 @@ Lastly, due to the way the game is coded every harmony patch is executed **twice
 - Bloon.Damaged : Whenever the bloon takes any kind of damage
 - Bloon.Leaked : When the bloon gets through the exit
 - Bloon.UpdatedModel : Whenever the bloon model gets updated (example is when a layer gets popped)
-- Bloon.SetRotation : Occurs whenever the SetRotation method is called in the game (not often tbh. Might remove this one)
+- Bloon.SetRotation : Used by MOAB class bloons. While one is spawned this method is called like 20imes every second
 ---
 - Tower.Initialise : Occurs when a tower is created (example is when it is placed on map)
 - Tower.Destroyed : Occurs when the tower is destroyed (example is when it is sold)
