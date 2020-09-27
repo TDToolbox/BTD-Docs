@@ -25,7 +25,7 @@ The code to hook this method looks like the following:
 ![Simple prefix hook](https://media.discordapp.net/attachments/619054151967703061/759601936458186762/unknown.png?width=1214&height=267)
 
 
-The example above demonstrates what the game's method looks like and what our code would look like if we were to hook it. Prefixes are really nice because you're able to get and even change the values of the arguments that go into it. For example if you look at the game's code for SetRotation you will notice the first line has `(float rotation)`. This is a paramater that passes information into the SetRotation method. In this case that parameter is a float value and its the rotation amount we want to set the bloon to. If you wanted to get the value of rotation before the method used it, you would do this:
+The example above demonstrates what the game's method looks like and what our code would look like if we were to hook it. Notice how we're using `internal static` for our method. All Harmony patches need to be either `internal static` or `public static`, otherwise they won't be applied. A nice feature of Prefixes is you're able to get and even change the values of the arguments that go into the method you're hooking. For example if you look at the game's code for SetRotation you will notice the first line has `(float rotation)`. This is a paramater that passes information into the SetRotation method. In this case that parameter is a float value and its the rotation amount we want to set the bloon to. If you wanted to get the value of rotation before the method used it, you would do this:
 
 ![Getting variable from prefix](https://media.discordapp.net/attachments/619054151967703061/759602206298210336/unknown.png?width=1210&height=287)
 
