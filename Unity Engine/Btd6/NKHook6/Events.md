@@ -26,6 +26,7 @@ Lastly, due to the way the game is coded every harmony patch is executed **twice
 
 
 ## Currently implimented events:
+Here is the list of events we currently have implimented. Note: if you want to use them you need to add the word "Event" after the name. Ex: `MainMenu.OnEnableEvent`. This applies to all of the events after `Key Released`
 
 - Game Update : Occurs every time the game updates (very often)
 - Key Press : Occurs when the user presses a key (you can get which key they pressed)
