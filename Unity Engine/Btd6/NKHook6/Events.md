@@ -49,8 +49,8 @@ Here is the list of events we currently have implimented. Note: if you want to u
 - Bloon.SetRotation : Used by MOAB class bloons and Regrow bloons. MOAB class bloons call this like 20 times every second but regrows seem to call it once when needed
 ---
 - Tower.Initialise : Occurs when a tower is created (example is when it is placed on map)
-- Tower.Destroyed : Occurs when the tower is destroyed (example is when it is sold)
-- Tower.Sold : Happens when the tower is sold
+- Tower.OnDestroy : Occurs when the tower is destroyed (example is when it is sold)
+- Tower.OnSold : Happens when the tower is sold
 - Tower.UpdatedModel : Happens whenever the model is updated (ex: buying upgrades)
 - Tower.OnUpgrade : Occurs whenever the tower is upgraded
 - Tower.IsSelectable : Occurs whenever the user clicks on a tower. Game decides if its possible to select the tower or not
@@ -60,8 +60,8 @@ Here is the list of events we currently have implimented. Note: if you want to u
 - Tower.Hilight : Occurs when you click on the tower and it is highlighted with a white outline
 - Tower.UnHighlight : Occurs when you click off of a tower and it is un-highlighted
 ---
-- Simulation.RoundStart : Occurs when the round starts
-- Simulation.RoundEnd : Occurs when the round ends
+- Simulation.OnRoundStart : Occurs when the round starts
+- Simulation.OnRoundEnd : Occurs when the round ends
 - Simulation.OnDefeat : Occurs when you lose the game
 - Simulation.TakeDamage : Happens whenever the player looses any health at all
 - Simulation.SetCash : Called once at the beginning of a game when you contiune previous game (not called for new games) and called every time you set cash in sandbox
