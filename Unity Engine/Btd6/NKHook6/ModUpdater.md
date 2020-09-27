@@ -18,7 +18,7 @@ You can use whatever you want for version numbers as long as there are actual nu
 `[assembly: NKHook6.LatestVersionURL(typeof(YOUR_PROJ_NAMESPACE.Main), "YOUR_URL_HERE")]`
 
 To explain this line of code:
-- replace `YOUR_PROJ_NAMESPACE` to the namespace for your mod. For example, NKHook6's namespace is `NKHook6`. `Main` should be your main project file, or whereever your program starts in. If you didn't rename your files when you made your project it might be called `Class1` for you.
+- replace `YOUR_PROJ_NAMESPACE` to the namespace for your mod. For example, NKHook6's namespace is `NKHook6`. `Main` should be your main project file, or where ever your program starts in. If you didn't rename your files when you made your project it might be called `Class1` for you.
 - replace `YOUR_URL_HERE` with the url you copied from your github raw page
 
 Now you're done. NKHook6 will automatically check your mod for updates. Just make sure you update the version number in that text file whenever you release a new update.
