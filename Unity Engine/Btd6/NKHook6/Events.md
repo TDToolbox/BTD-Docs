@@ -17,7 +17,12 @@ Something else to point out about our custom event system is we've already colle
 ### Harmony event attributes
 ![harmony event attributes](https://media.discordapp.net/attachments/619054151967703061/759630060415090748/unknown.png?width=486&height=243)
 
-Again you can see that our system has simplified it for you. We want to make the modding process as smooth and easy as possible. Lastly, due to the way the game is coded every harmony patch is executed **twice**. If you're not careful this could seriously mess up your mod. We've taken the liberty of removing that problem from our event system. Each event we've added to our custom events will only fire once, exactly when it needs to.
+Again you can see that our system has simplified it for you. We want to make the modding process as smooth and easy as possible. You can even cancel the original method from our prefixes:
+
+![cancelling method from prefixes](https://media.discordapp.net/attachments/619054151967703061/759638121423175690/unknown.png?width=522&height=163)
+
+
+Lastly, due to the way the game is coded every harmony patch is executed **twice**. If you're not careful this could seriously mess up your mod. We've taken the liberty of removing that problem from our event system. Each event we've added to our custom events will only fire once, exactly when it needs to.
 
 
 ## Currently implimented events:
