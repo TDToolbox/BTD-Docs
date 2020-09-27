@@ -20,7 +20,19 @@ You can add as many things as you want to your settings file. All thats left is 
 
 ### Loading settings:
 
-Pick a good place to load your settings. Do you want to do it when the game starts? When a round starts? When a projectile is fired? Its up to you when you load it. Just make sure that your settings *do* get loaded. In this example I'm going to load them when the application starts, after I load my harmony patches. 
+Pick a good place to load your settings. Do you want to do it when the game starts? When a round starts? When a projectile is fired? Its up to you when you load it. Just make sure that your settings *do* get loaded. In this example I'm going to load them when the application starts, after I load my harmony patches.
+
 ![load settings example](https://media.discordapp.net/attachments/619054151967703061/759617470041423922/unknown.png?width=801&height=232)
 Loading your settings is as simpel as that. Now to access the values inside of it just do `settings.` and after you type the period you will see a menu pop up with all the values you can use. This includes every variable you added to your Settings.cs file. If you load your settings like I did in the example, you can only acceess the data in `settings` in that particular method. If you want to allow your whole program to access the settings you loaded, do this:
-1[public static settings](https://media.discordapp.net/attachments/619054151967703061/759618884986208276/unknown.png?width=778&height=265)
+
+![public static settings](https://media.discordapp.net/attachments/619054151967703061/759618884986208276/unknown.png?width=778&height=265)
+
+If you do it this way you can access the `settings` variable at the top of your program anywhere in the program.
+
+
+### Saving settings to file
+
+If you want to save your settings to file, do this:
+![Save your settings](https://media.discordapp.net/attachments/619054151967703061/759620167050854410/unknown.png?width=780&height=326)
+
+It's as easy as that. The ModSettings class automatically keeps track of where your settings file is stored so you can worry about as little as possible
