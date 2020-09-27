@@ -20,7 +20,7 @@ namespace BetterFastForward
         //This example mod gets reads the settings file every time you turn on fast forward.
         //This means you can change the fast forward speed in your settings and have it update in game!
         [EventAttribute("TimeManager.SetFastForwardEvent.Post")]
-        public static void ChangeFastForward(SetFastForwardEvent.Post e)
+        public static void ChangeFastForward(TimeManager.SetFastForwardEvent.Post e)
         {
             if (TimeManager.gamePaused || TimeManager.coopPaused)   //exit this method if game is paused
                 return;
