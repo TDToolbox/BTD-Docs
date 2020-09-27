@@ -17,3 +17,8 @@ These wiki pages are deticated to NKHook6. Check out the files to learn more abo
 - ### [Harmnny Patching](https://github.com/TDToolbox/BTD-Docs/blob/master/Unity%20Engine/MelonLoader/Harmony%20Patching.md)
 
 - ### [Using Visual Studio](https://github.com/TDToolbox/BTD-Docs/blob/master/Unity%20Engine/MelonLoader/How%20to%20create%20Visual%20Studio%20project.md)
+
+---
+
+#### Contact us
+Want to get in touch with us? The best way to contact us is through our [discord server](https://discord.gg/VADMF2M)
