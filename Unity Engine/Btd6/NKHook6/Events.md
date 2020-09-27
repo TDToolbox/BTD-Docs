@@ -46,7 +46,7 @@ Here is the list of events we currently have implimented. Note: if you want to u
 - Bloon.Damaged : Whenever the bloon takes any kind of damage
 - Bloon.Leaked : When the bloon gets through the exit
 - Bloon.UpdatedModel : Whenever the bloon model gets updated (example is when a layer gets popped)
-- Bloon.SetRotation : Used by MOAB class bloons and Regrow bloons. MOAB class bloons call this like 20imes every second but regrows seem to call it once when needed
+- Bloon.SetRotation : Used by MOAB class bloons and Regrow bloons. MOAB class bloons call this like 20 times every second but regrows seem to call it once when needed
 ---
 - Tower.Initialise : Occurs when a tower is created (example is when it is placed on map)
 - Tower.Destroyed : Occurs when the tower is destroyed (example is when it is sold)
