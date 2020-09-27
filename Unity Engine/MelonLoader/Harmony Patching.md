@@ -12,7 +12,7 @@ Harmony has several different ways to hook the games code. Since BTD6/BTDAT use 
 Before you can start using Harmony you need do the following:
 ![harmony patchall()](https://media.discordapp.net/attachments/619054151967703061/759606959304343572/unknown.png?width=639&height=141)
 
-This is tellig Harmony to hook *all* of your patches to the game. This should be the first thing in your mod. If you don't do this none of your Harmony patches will work. Also, instead of using "TDToolbox.Random Stronger Bloons" you should put "AuthorName.ModName". You can use spaces and underscores if you want
+This is tellig Harmony to hook *all* of your patches to the game. This should be the first thing in your mod. If you don't do this none of your Harmony patches will work. Also, instead of using `"TDToolbox.Random Stronger Bloons"` you should put `"AuthorName.ModName"`. You can use spaces and underscores if you want
 
 # Prefix
 When using Harmony Prefixes, your code will be executed *before* the game's code. 
@@ -47,4 +47,19 @@ You can also get the exact Bloon that tried to use the SetRotation method. It's 
 
 All you need to do is put `Bloon __instance` as one of the parameters. For different classes in the game just change Bloon to whatever you need and keep instance the same. Ex: `Tower __instance`,  `Weapon __instance`, `Projectile __instance`. You have to use **2 underscores** otherwise it won't work. Just like in the previous example with `(ref float rotation)` you can set `__instance` to whatever you want. Normally you don't change it to entirely different thing, rather you just change aspects of it, like on our case we might change the BloonModel
 
+---
+
 # Postfix
+Postfixes are hooks that execute your code *after* the game's method finishes. Postfixes are the most common because they allow the game to execute the same as it was going to originally. Prefixes are risky to use because they can permenantly change the result of the method, depending on what you do. This will change the method for everyone using your mod and will make your mod incompatible with all other mods that change this method. This is why it's best to always use Postfixes when you can. Don't let this discourage you though, prefixes are still very useful and sometimes they are required. Just use them sparingly.
+
+Postfixes are coded almost exactly the same as a prefix, aside from a few key differences. Heres an example of a Postfix for the same method we used above, SetRotation():
+
+![harmony postifx example](https://media.discordapp.net/attachments/619054151967703061/759610111474794516/unknown.png?width=1033&height=363)
+
+Do you notice the differences? The only differences in how they are coded is they use the word `Postfix` instead of `Prefix` and they are `void` so they don't return anything. The last difference between them is Postfixes can get the result of a function, or what it returns to the game. For example, the method `CanTargetCamo()` is a method that the game uses to decide if a Tower can target a camo bloon. This method returns true or false, whether or not the Tower is actually able to target camo bloons. Heres how you'd get the return value of a method in a Postfix:
+
+![getting result of method](https://media.discordapp.net/attachments/619054151967703061/759611505309909002/unknown.png?width=924&height=240)
+
+Similar to getting the instance that used the method, you can get the result by using `Datatype __result` where datatype is the datatype of the return value (string, bool, int, etc) and the keyword `__result` with **2 underscores**. Just like with Prefixes you can still get the `__instance` of the tower that used the method, use `ref` keyword, as well as get any other parameters that the method uses.
+
+
