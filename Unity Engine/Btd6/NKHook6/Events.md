@@ -32,6 +32,7 @@ Again you can see that our system has simplified it for you. We want to make the
 - TimeManager.SetFastForward : Happens when you press the fast forward button
 ---
 - InGame.Update : Occurs whenever InGame.instance is updated (often). Can be useful for running mods if InGame.instance is not null
+- InGame.OnVictory : Occurs when you win a game
 - InGame.GetContinueCost : Happens after you lose and you decide to spend monkey money to continue. Occurs after you click okay to spend the money
 ---
 - Bloon.Initialise : When a bloon is created (it is off screen at this point)
