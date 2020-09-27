@@ -29,15 +29,39 @@ Again you can see that our system has simplified it for you. We want to make the
 ---
 - MainMenu.OnEnable : Occurs every time the user goes to the main menu
 ---
+- TimeManager.SetFastForward : Happens when you press the fast forward button
+---
+- InGame.Update : Occurs whenever InGame.instance is updated (often). Can be useful for running mods if InGame.instance is not null
+- InGame.GetContinueCost : Happens after you lose and you decide to spend monkey money to continue. Occurs after you click okay to spend the money
+---
 - Bloon.Initialise : When a bloon is created (it is off screen at this point)
 - Bloon.OnDestroy : When a bloon is destroyed. Happens when popped and when it gets through exit
 - Bloon.Damaged : Whenever the bloon takes any kind of damage
 - Bloon.Leaked : When the bloon gets through the exit
-- Bloon.UpdateModel : Whenever the bloon model gets updated (example is when a layer gets popped)
+- Bloon.UpdatedModel : Whenever the bloon model gets updated (example is when a layer gets popped)
 - Bloon.SetRotation : Occurs whenever the SetRotation method is called in the game (not often tbh. Might remove this one)
 ---
 - Tower.Initialise : Occurs when a tower is created (example is when it is placed on map)
 - Tower.Destroyed : Occurs when the tower is destroyed (example is when it is sold)
 - Tower.Sold : Happens when the tower is sold
-- Tower.UpdateModel : Happens whenever the model is updated (ex: buying upgrades)
-- 
+- Tower.UpdatedModel : Happens whenever the model is updated (ex: buying upgrades)
+- Tower.OnUpgrade : Occurs whenever the tower is upgraded
+- Tower.IsSelectable : Occurs whenever the user clicks on a tower. Game decides if its possible to select the tower or not
+- Tower.IsUpgradeBlocked : Occurs whenever you buy an upgrade. Game checks if the upgrade is blocked or not
+- Tower.AddPoppedCash : Occurs when you pop a bloon and cash is added for popping it
+- Tower.GetSaveData : Occurs at the end of each round. Not exactly sure what else it does
+- Tower.Hilight : Occurs when you click on the tower and it is highlighted with a white outline
+- Tower.UnHighlight : Occurs when you click off of a tower and it is un-highlighted
+---
+- Simulation.RoundStart : Occurs when the round starts
+- Simulation.RoundEnd : Occurs when the round ends
+- Simulation.OnDefeat : Occurs when you lose the game
+- Simulation.TakeDamage : Happens whenever the player looses any health at all
+---
+- Weapon.Initialise : Happens when the weapon is created (not 100% sure but I think it's when tower is created/when buying upgrades)
+- Weapon.OnDestroy : Happens when weapon is destroyed. Like above, not 100% sure but I think it happens when tower is destroyed
+- Weapon.UpdatedModel : Happens whenever the weapons model is updated (ex: buying upgrades and being generally awesome)
+---
+- Projectile.Initialise : Happens when the projectile is created (when fired from weapon)
+- Projectile.OnDestroy : Happens when the projectile is destroyed
+- Projectile.UpdatedModel : Happens when the projectile model has been updated (I'm assuming mid-flight because projectiles are fired from weapons)
