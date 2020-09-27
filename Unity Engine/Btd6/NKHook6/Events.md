@@ -26,15 +26,18 @@ Again you can see that our system has simplified it for you. We want to make the
 - Key Press : Occurs when the user presses a key (you can get which key they pressed)
 - Key Held : Occurs when the user holds a key (you can get which key they're holding)
 - Key Released : Occurs when the user releases a key (you can get which key they released)
-
+---
 - MainMenu.OnEnable : Occurs every time the user goes to the main menu
-
+---
 - Bloon.Initialise : When a bloon is created (it is off screen at this point)
 - Bloon.OnDestroy : When a bloon is destroyed. Happens when popped and when it gets through exit
 - Bloon.Damaged : Whenever the bloon takes any kind of damage
 - Bloon.Leaked : When the bloon gets through the exit
 - Bloon.UpdateModel : Whenever the bloon model gets updated (example is when a layer gets popped)
 - Bloon.SetRotation : Occurs whenever the SetRotation method is called in the game (not often tbh. Might remove this one)
-
+---
 - Tower.Initialise : Occurs when a tower is created (example is when it is placed on map)
 - Tower.Destroyed : Occurs when the tower is destroyed (example is when it is sold)
+- Tower.Sold : Happens when the tower is sold
+- Tower.UpdateModel : Happens whenever the model is updated (ex: buying upgrades)
+- 
