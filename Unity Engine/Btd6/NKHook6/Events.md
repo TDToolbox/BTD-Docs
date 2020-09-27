@@ -45,7 +45,7 @@ Lastly, due to the way the game is coded every harmony patch is executed **twice
 - Bloon.Damaged : Whenever the bloon takes any kind of damage
 - Bloon.Leaked : When the bloon gets through the exit
 - Bloon.UpdatedModel : Whenever the bloon model gets updated (example is when a layer gets popped)
-- Bloon.SetRotation : Used by MOAB class bloons. While one is spawned this method is called like 20imes every second
+- Bloon.SetRotation : Used by MOAB class bloons and Regrow bloons. MOAB class bloons call this like 20imes every second but regrows seem to call it once when needed
 ---
 - Tower.Initialise : Occurs when a tower is created (example is when it is placed on map)
 - Tower.Destroyed : Occurs when the tower is destroyed (example is when it is sold)
@@ -63,6 +63,7 @@ Lastly, due to the way the game is coded every harmony patch is executed **twice
 - Simulation.RoundEnd : Occurs when the round ends
 - Simulation.OnDefeat : Occurs when you lose the game
 - Simulation.TakeDamage : Happens whenever the player looses any health at all
+- Simulation.SetCash : Called once at the beginning of a game when you contiune previous game (not called for new games) and called every time you set cash in sandbox
 ---
 - Weapon.Initialise : Happens when the weapon is created (not 100% sure but I think it's when tower is created/when buying upgrades)
 - Weapon.OnDestroy : Happens when weapon is destroyed. Like above, not 100% sure but I think it happens when tower is destroyed
