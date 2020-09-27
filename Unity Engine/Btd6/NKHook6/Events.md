@@ -65,6 +65,7 @@ Lastly, due to the way the game is coded every harmony patch is executed **twice
 - Simulation.TakeDamage : Happens whenever the player looses any health at all
 - Simulation.SetCash : Called once at the beginning of a game when you contiune previous game (not called for new games) and called every time you set cash in sandbox
 - Simulation.AddCash : Occurs whenever you gain cash. Note: The game normally calls this method every InGame update even if you gain zero cash, so it's 20 times a second. We made our event only fire once when you get cash so no need to worry about repeating
+- Simulation.RemoveCash : Occurs whenever cash is spent. Note: Game normally fires Harmony version of this 3 times for both prefix and postfix. Our event only fires once when cash is spent
 ---
 - Weapon.Initialise : Happens when the weapon is created (not 100% sure but I think it's when tower is created/when buying upgrades)
 - Weapon.OnDestroy : Happens when weapon is destroyed. Like above, not 100% sure but I think it happens when tower is destroyed
