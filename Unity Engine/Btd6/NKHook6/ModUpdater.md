@@ -6,9 +6,11 @@ Ever wish you could notify all of your loyal fans whenever you released an updat
 3. In that repository create a text file. Inside that text file put your version number. Heres an example: 
 
 ![github version example](https://media.discordapp.net/attachments/619054151967703061/759621686139027506/unknown.png?width=415&height=128)
+
 You can use whatever you want for version numbers as long as there are actual numbers. NKHook6 will ignore any character that is not a number
 
 4. In the top right corner you will see a button with the word "Raw" on it. Click that button
+
 ![raw button](https://media.discordapp.net/attachments/619054151967703061/759622250344349706/unknown.png?width=292&height=109)
 
 5. Copy the url to that page.
