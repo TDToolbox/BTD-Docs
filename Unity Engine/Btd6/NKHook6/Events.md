@@ -32,7 +32,7 @@ Lastly, due to the way the game is coded every harmony patch is executed **twice
 - Key Held : Occurs when the user holds a key (you can get which key they're holding)
 - Key Released : Occurs when the user releases a key (you can get which key they released)
 ---
-- MainMenu.OnEnable : Occurs every time the user goes to the main menu
+- MainMenu.OnEnable : Occurs every time the user goes to the main menu. Note: When patching with harmony this method is normally called twice when you see it for the first time in a game. We made our event version fire only once
 ---
 - TimeManager.SetFastForward : Happens when you press the fast forward button
 ---
@@ -64,6 +64,7 @@ Lastly, due to the way the game is coded every harmony patch is executed **twice
 - Simulation.OnDefeat : Occurs when you lose the game
 - Simulation.TakeDamage : Happens whenever the player looses any health at all
 - Simulation.SetCash : Called once at the beginning of a game when you contiune previous game (not called for new games) and called every time you set cash in sandbox
+- Simulation.AddCash : Occurs whenever you gain cash. Note: The game normally calls this method every InGame update even if you gain zero cash, so it's 20 times a second. We made our event only fire once when you get cash so no need to worry about repeating
 ---
 - Weapon.Initialise : Happens when the weapon is created (not 100% sure but I think it's when tower is created/when buying upgrades)
 - Weapon.OnDestroy : Happens when weapon is destroyed. Like above, not 100% sure but I think it happens when tower is destroyed
