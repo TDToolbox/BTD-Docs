@@ -8,7 +8,7 @@ Before you can use the event system, you have to register a class to it. To do t
 ```
 EventRegistry.subscriber.register(typeof(<Class>));
 ```
-and simply replace "<Class>" with your class name. For example, your class might look like this:
+and simply replace "\<Class\>" with your class name. For example, your class might look like this:
 ```
 public class MyMod : MelonMod
 {
