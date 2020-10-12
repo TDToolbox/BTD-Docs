@@ -1,6 +1,6 @@
 # Learn more about Harmony Patching
 Read this page to get a crash course in Harmony!
-Note by ASM: NKHook6 features an *Event System*, which should be used in favor of Harmony when possible. It is much simpler to use as well, and does most of the work for you. You can find out more about it [here](https://github.com/TDToolbox/BTD-Docs/blob/master/Unity%20Engine/Btd6/NKHook6/Events.md)
+**Note**: NKHook6 features an *Event System*, which **should be used in favor of Harmony when possible.** It is much simpler to use as well, and does most of the work for you. It is also meant to be **version proof**, to garuntee that your mod would work across updated. You can find out more about it [here](https://github.com/TDToolbox/BTD-Docs/blob/master/Unity%20Engine/Btd6/NKHook6/Events.md)
 
 
 ## Harmony Basics
