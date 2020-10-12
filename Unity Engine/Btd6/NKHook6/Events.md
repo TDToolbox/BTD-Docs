@@ -1,5 +1,5 @@
 # Events
-Not too long ago, we re-created the event system. This new event system is meant to replace the use of Harmony patches in a simple, version-independant manner. The problem with this, is that because the event system is unique to the game and meant to be easy, it doesn't have *every* feature. In cases like that, you'll have to use Harmony.
+Not too long ago, we re-created the event system. This new event system is meant to replace the use of Harmony patches in a simple, version-independent manner. The problem with this, is that because the event system is unique to the game and meant to be easy, it doesn't have *every* feature. In cases like that, you'll have to use Harmony.
 
 However, on this page you will see what events are available, how to use them, and more.
 
