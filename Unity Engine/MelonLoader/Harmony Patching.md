@@ -11,9 +11,10 @@ Harmony has several different ways to hook the games code. Since BTD6/BTDAT use 
 # Getting Started
 
 Before you can start using Harmony you need do the following:
+
 ![harmony patchall()](https://media.discordapp.net/attachments/619054151967703061/759606959304343572/unknown.png?width=639&height=141)
 
-This is tellig Harmony to hook *all* of your patches to the game. This should be the first thing in your mod. If you don't do this none of your Harmony patches will work. Also, instead of using `"TDToolbox.Random Stronger Bloons"` you should put `"AuthorName.ModName"`. You can use spaces and underscores if you want
+This is telling Harmony to hook *all* of your patches to the game. This should be the first thing in your mod. If you don't do this none of your Harmony patches will work. Also, instead of using `"TDToolbox.Random Stronger Bloons"` you should put `"AuthorName.ModName"`. You can use spaces and underscores if you want
 
 # Prefix
 When using Harmony Prefixes, your code will be executed *before* the game's code. 
