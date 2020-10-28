@@ -5,11 +5,12 @@ However, on this page you will see what events are available, how to use them, a
 
 ## Using events
 Before you can use the event system, you have to register a class to it. To do this, simply copy this line of code into your main class and method:
-```
+```cs
 EventRegistry.subscriber.register(typeof(<Class>));
 ```
+> NOTE: you need `using NKHook6.Api.Events;`
 and simply replace "\<Class\>" with your class name. For example, your class might look like this:
-```
+```cs
 public class MyMod : MelonMod
 {
     public override void OnApplicationStart()
@@ -21,20 +22,39 @@ public class MyMod : MelonMod
 ```
 
 To use events now is very simple, just follow this format in your mod class:
-```
-[EventAttribute("<EventName>")]
-public static void onEvent(<EventGroup>.<EventClass> e){
+```cs
+public class MyMod : MelonMod
+{
+    public override void OnApplicationStart()
+    {
+        base.OnApplicationStart();
+        EventRegistry.subscriber.register(typeof(MyMod));
+    }
+    [EventAttribute("<EventName>")]
+    public static void onEvent(<EventGroup>.<EventClass> e){
 
+    }
 }
+
 ```
 Now this may seem a little confusing, however as you'll soon see, it is actually quite elegant and simple.
 
 Lets say you wanted to use the "BloonLeakedEvent", so that you can execute code whenever a bloon escapes and makes you take damage. Your code would look like this:
-```
-[EventAttribute("BloonLeakedEvent")]
-public static void onEvent(BloonEvents.LeakedEvent e){
-    //Code here
+```cs
+public class MyMod : MelonMod
+{
+    public override void OnApplicationStart()
+    {
+        base.OnApplicationStart();
+        EventRegistry.subscriber.register(typeof(MyMod));
+    }
+    [EventAttribute("<EventName>")]
+    [EventAttribute("BloonLeakedEvent")]
+    public static void onEvent(BloonEvents.LeakedEvent e){
+        //Code here
+    }
 }
+
 ```
 
 ## All events
