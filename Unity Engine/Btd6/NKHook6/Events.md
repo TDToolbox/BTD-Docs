@@ -5,11 +5,11 @@ However, on this page you will see what events are available, how to use them, a
 
 ## Using events
 Before you can use the event system, you have to register a class to it. To do this, simply copy this line of code into your main class and method:
-```cs
+```
 EventRegistry.subscriber.register(typeof(<Class>));
 ```
 and simply replace "\<Class\>" with your class name. For example, your class might look like this:
-```cs
+```
 public class MyMod : MelonMod
 {
     public override void OnApplicationStart()
@@ -21,7 +21,7 @@ public class MyMod : MelonMod
 ```
 
 To use events now is very simple, just follow this format in your mod class:
-```cs
+```
 [EventAttribute("<EventName>")]
 public static void onEvent(<EventGroup>.<EventClass> e){
 
@@ -30,7 +30,7 @@ public static void onEvent(<EventGroup>.<EventClass> e){
 Now this may seem a little confusing, however as you'll soon see, it is actually quite elegant and simple.
 
 Lets say you wanted to use the "BloonLeakedEvent", so that you can execute code whenever a bloon escapes and makes you take damage. Your code would look like this:
-```cs
+```
 [EventAttribute("BloonLeakedEvent")]
 public static void onEvent(BloonEvents.LeakedEvent e){
     //Code here
@@ -40,58 +40,29 @@ public static void onEvent(BloonEvents.LeakedEvent e){
 ## All events
 Now that you know the format events are created in, here are all of the events with their corresponding name and class
 
-### BloonEvents
-
-| EventClass         | EventName                |
-|--------------------|--------------------------|
-| `CreatedEvent`     | `BloonCreatedEvent`      |
-| `DamagedEvent`     | `BloonDamagedEvent`      |
-| `DeletedEvent`     | `BloonDeletedEvent`      |
-| `LeakedEvent`      | `BloonLeakedEvent`       |
-| `MoveEvent`        | `BloonMoveEvent`         |
-| `RotateEvent`      | `BloonRotateEvent`       |
-
-### InGameEvents
-
-| EventClass         | EventName              |
-|--------------------|------------------------|
-| `VictoryEvent`     | `VictoryEvent`         |
-
-### MainMenuEvents
-
-| EventClass         | EventName              |
-|--------------------|------------------------|
-| `LoadedEvent`      | `MainMenuLoadedEvent`|
-
-
-### ProjectileEvents
-
-| EventClass         | EventName                |
-|--------------------|--------------------------|
-| `CreatedEvent`     | `ProjectileCreatedEvent` |
-| `DeletedEvent`     | `ProjectileDeletedEvent` |
-
-### SimulationEvents
-| EventClass         | EventName                |
-|--------------------|--------------------------|
-| `CashChangedEvent` | `CashChangedEvent`       |
-| `CashGainedEvent`  | `CashGainedEvent`        |
-| `CashLostEvent`    | `CashLostEvent`          |
-| `DefeatedEvent`    | `DefeatedEvent`          |
-| `RoundEndEvent`    | `RoundEndEvent`          |
-| `RoundStartEvent`  | `RoundStartEvent`        |
-### TowerEvents
-| EventClass         | EventName                |
-|--------------------|--------------------------|
-| `CreatedEvent`     | `TowerCreatedEvent`      |
-| `DeletedEvent`     | `TowerDeletedEvent`      |
-| `DeselectedEvent`  | `TowerDeselectedEvent`   |
-| `SelectedEvent`    | `TowerSelectedEvent`     |
-| `SoldEvent`        | `TowerSoldEvent`         |
-| `UpgradeEvent`     | `TowerUpgradeEvent`      |
-
-### WeaponEvents
-| EventClass       | EventName              |
-|------------------|------------------------|
-| `CreatedEvent`   | `WeaponCreatedEvent`   |
-| `DeletedEvent`   | `WeaponDeletedEvent`   |
+|    EventGroup    | EventClass       | EventName              |
+|:----------------:|------------------|------------------------|
+|    BloonEvents   | CreatedEvent     | BloonCreatedEvent      |
+|    BloonEvents   | DamagedEvent     | BloonDamagedEvent      |
+|    BloonEvents   | DeletedEvent     | BloonDeletedEvent      |
+|    BloonEvents   | LeakedEvent      | BloonLeakedEvent       |
+|    BloonEvents   | MoveEvent        | BloonMoveEvent         |
+|    BloonEvents   | RotateEvent      | BloonRotateEvent       |
+|   InGameEvents   | VictoryEvent     | VictoryEvent           |
+|  MainMenuEvents  | LoadedEvent      | MainMenuLoadedEvent    |
+| ProjectileEvents | CreatedEvent     | ProjectileCreatedEvent |
+| ProjectileEvents | DeletedEvent     | ProjectileDeletedEvent |
+| SimulationEvents | CashChangedEvent | CashChangedEvent       |
+| SimulationEvents | CashGainedEvent  | CashGainedEvent        |
+| SimulationEvents | CashLostEvent    | CashLostEvent          |
+| SimulationEvents | DefeatedEvent    | DefeatedEvent          |
+| SimulationEvents | RoundEndEvent    | RoundEndEvent          |
+| SimulationEvents | RoundStartEvent  | RoundStartEvent        |
+| TowerEvents      | CreatedEvent     | TowerCreatedEvent      |
+| TowerEvents      | DeletedEvent     | TowerDeletedEvent      |
+| TowerEvents      | DeselectedEvent  | TowerDeselectedEvent   |
+| TowerEvents      | SelectedEvent    | TowerSelectedEvent     |
+| TowerEvents      | SoldEvent        | TowerSoldEvent         |
+| TowerEvents      | UpgradeEvent     | TowerUpgradeEvent      |
+| WeaponEvents     | CreatedEvent     | WeaponCreatedEvent     |
+| WeaponEvents     | DeletedEvent     | WeaponDeletedEvent     |
