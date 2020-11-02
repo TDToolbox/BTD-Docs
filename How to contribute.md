@@ -1,6 +1,9 @@
-# Contributing
+# BTD Documentation
+This repository is for documenting anything related to NK modding
 
-## Editor
+## Contributing
+
+### Editor
 
 To edit and contribute to this documentation, [Visual Studio Code](https://code.visualstudio.com/Download) is recommended.  
 Once installed, download the [Markdown All In One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension through the "Extensions" bar on the left.  
@@ -8,7 +11,7 @@ Once installed, if you open a Markdown (.md) file, and press `Ctrl + Shift + V` 
 Finally, install the [Spell Right](https://marketplace.visualstudio.com/items?itemName=ban.spellright) addon.  
 This is just a recommended setup, it provides a markdown preview and a spellchecked as well as git integration.
 
-## Using git
+### Using git
 
 Unsure how to use git with Visual Studio Code? Here's a quick overview!  
 First, download [GitHub for desktop](https://desktop.github.com/)  
@@ -19,7 +22,7 @@ Click on the window on the left bar of Visual Studio code called `"Source Contro
 To save a new version, click on the ellipsis (`...`) at the top and click `Commit all`. This will effectively "Save As" a copy of your changes. Click `"Always"` to the popup and add a commit message such as `"Added brief tutorial to README.md"`  
 To share these changes to the world & receive updates, click on the ellipsis (`...`) again and click `Sync`  
 
-## Using Markdown
+### Using Markdown
 
 A comprehensive tutorial can be found at <https://www.markdownguide.org/basic-syntax>  
 A cheat sheet can be found at <https://www.markdownguide.org/cheat-sheet>  
