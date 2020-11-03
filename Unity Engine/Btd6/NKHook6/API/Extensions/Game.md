@@ -1,7 +1,66 @@
 # Game extension methods
-## getMonkeyMoney
+
+```cs
+using NKHook6.Api.Extensions;
+using Assets.Scripts.Unity;
+```
+
+# `Game.instance`
+
+## `.getMonkeyMoney()`
+
+```cs
+var monkeyMoney = Game.instance.getMonkeyMoney();
+```
+
 Returns the player's Monkey Money
-```double Game#getMonkeyMoney()```
-## setMonkeyMoney
-Sets the player's Monkey Money to a given double value.
-```double Game#setMonkeyMoney(double newAmount)```
+
+type: `double`
+
+## `.setMonkeyMoney()`
+
+```cs
+Game.instance.setMonkeyMoney(1234567);
+Game.instance.setMonkeyMoney(double monkeyMoney);
+```
+
+type: `double`
+
+## `.getBloonModel()`
+
+```cs
+BloonModel = Game.instance.getBloonModel(string bloonName);
+```
+type: `BloonModel`
+
+## `.getAllBloonModels();`
+
+```cs
+var allBloonTypes = Game.instance.getAllBloonModels();
+```
+
+type: `array`
+
+## `.getTowerModel()`
+
+```cs
+towernModel = Game.instance.getTowerModel(string towerName);
+```
+
+type: `TowerModel`
+
+## `.getAllTowerModels();`
+
+```cs
+var allTowers = Game.instance.getAllTowerModels();
+```
+
+type: `array`
+
+## `.getUpgradeModel()`
+
+```cs
+upgradeModel = Game.instance.getUpgradeModel(string upgradeName);
+```
+type: `UpgradeModel`
+
