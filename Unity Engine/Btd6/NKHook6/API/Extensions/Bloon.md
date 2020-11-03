@@ -22,7 +22,7 @@ Bloon.getId(Bloon bloon); // note you need to put an actual bloon here
 Takes in a BloonModel and sets the bloon instance's model to the given model.
 
 ```cs
-Bloon.getId(Bloon bloon, BloonModel model); // note you need to put an actual bloon/bloonModel here
+Bloon.setBloonModel(Bloon bloon, BloonModel model); // note you need to put an actual bloon/bloonModel here
 ```
 
 ## `.getDamage()`
