@@ -1,6 +1,6 @@
 # Events
 This page has all of the events in NKHook5 as well as how to use them in your plugin. Events are functions that take in a function and then call the given function when the event is triggered. This may sound complicated, but don't worry, its actually quite simple. As you will see in examples below, youll call event funtions in a format like this:
-```cs
+```
 onEvent(fun(parameters){
     //Do stuff with parameters
 });
@@ -13,7 +13,7 @@ This format isn't only for events, however. This can also be seen in functions l
 This event is triggered whenever the game detects a key press
 
 Example from [Movable Towers](https://github.com/DisabledMallis/NKHook5/blob/master/ScriptExamples/MovableTowers.chai):
-```cs
+```
 //Create a variable for if we are moving towers
 //The global version of "mov" is "moving" and so we want to use "moving" instead of "mov" now
 var mov = 0
@@ -36,7 +36,7 @@ onKey(fun(key)
 This event is triggered when a bloon escapes through your towers and takes health.
 
 Example:
-```cs
+```
 //Called when a bloon escapes
 onBloonEscaped(fun(event)
 {
@@ -63,7 +63,7 @@ This example will cause the player to lose money when a bloon escapes. This won'
 This event is triggered when a Tower is upgraded.
 
 Example:
-```cs
+```
 //Called when a Tower is upgraded
 /*
 towerManager - The CTowerManager
@@ -88,7 +88,7 @@ onTowerUpgrade(fun(towerManager, tower, path)
 This event is triggered when you start a new game
 
 Example:
-```cs
+```
 onGameDataInitialized(fun()
 {
 	//Sets the cash to 9999 when you first start a game
@@ -105,7 +105,7 @@ In this example, your cash will be set to 9999 when you begin a new game
 This event is triggered when you type into the command window and press enter
 
 Example:
-```cs
+```
 //Called when you type into the command window
 /*
 text - The text typed into the console window
