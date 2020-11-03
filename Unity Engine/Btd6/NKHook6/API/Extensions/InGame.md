@@ -81,3 +81,20 @@ Get all the bloons present
 Il2CppSystem.Collections.Generic.List<BloonToSimulation> bloons = InGame.instance.getBloons();
 ```
 type: `List<BloonToSimulation>`
+
+## `BloonToSimulation`
+
+you can individually get each `BloonToSimulation` from the List using `foreach`
+
+```cs
+foreach (BloonToSimulation bloonToSimulation in bloons)
+{
+                   
+    bloonToSimulation.method(); //actually use a method
+
+}
+```
+
+### `.getBaseModel()`
+
+type: `bloonModel`
