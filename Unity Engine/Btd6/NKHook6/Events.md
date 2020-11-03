@@ -40,29 +40,29 @@ public static void onEvent(BloonEvents.LeakedEvent e){
 ## All events
 Now that you know the format events are created in, here are all of the events with their corresponding name and class
 
-|    EventGroup    | EventClass       | EventName              |
-|:----------------:|------------------|------------------------|
-|    BloonEvents   | CreatedEvent     | BloonCreatedEvent      |
-|    BloonEvents   | DamagedEvent     | BloonDamagedEvent      |
-|    BloonEvents   | DeletedEvent     | BloonDeletedEvent      |
-|    BloonEvents   | LeakedEvent      | BloonLeakedEvent       |
-|    BloonEvents   | MoveEvent        | BloonMoveEvent         |
-|    BloonEvents   | RotateEvent      | BloonRotateEvent       |
-|   InGameEvents   | VictoryEvent     | VictoryEvent           |
-|  MainMenuEvents  | LoadedEvent      | MainMenuLoadedEvent    |
-| ProjectileEvents | CreatedEvent     | ProjectileCreatedEvent |
-| ProjectileEvents | DeletedEvent     | ProjectileDeletedEvent |
-| SimulationEvents | CashChangedEvent | CashChangedEvent       |
-| SimulationEvents | CashGainedEvent  | CashGainedEvent        |
-| SimulationEvents | CashLostEvent    | CashLostEvent          |
-| SimulationEvents | DefeatedEvent    | DefeatedEvent          |
-| SimulationEvents | RoundEndEvent    | RoundEndEvent          |
-| SimulationEvents | RoundStartEvent  | RoundStartEvent        |
-| TowerEvents      | CreatedEvent     | TowerCreatedEvent      |
-| TowerEvents      | DeletedEvent     | TowerDeletedEvent      |
-| TowerEvents      | DeselectedEvent  | TowerDeselectedEvent   |
-| TowerEvents      | SelectedEvent    | TowerSelectedEvent     |
-| TowerEvents      | SoldEvent        | TowerSoldEvent         |
-| TowerEvents      | UpgradeEvent     | TowerUpgradeEvent      |
-| WeaponEvents     | CreatedEvent     | WeaponCreatedEvent     |
-| WeaponEvents     | DeletedEvent     | WeaponDeletedEvent     |
+|   EventGroup    |EventClass       |EventName              
+|-----------------|-----------------|--------------------------------------------------------------------
+|BloonEvents      |CreatedEvent     |[BloonCreatedEvent](./API/Events/BloonEvents/CreatedEvent.md)
+|BloonEvents      |DamagedEvent     |[BloonDamagedEvent](./API/Events/BloonEvents/DamagedEvent.md)
+|BloonEvents      |DeletedEvent     |[BloonDeletedEvent](./API/Events/BloonEvents/LeakedEvent.md)
+|BloonEvents      |LeakedEvent      |[BloonLeakedEvent](./API/Events/BloonEvents/LeakedEvent.md)
+|BloonEvents      |MoveEvent        |[BloonMoveEvent](./API/Events/BloonEvents/MoveEvent.md)
+|BloonEvents      |RotateEvent      |BloonRotateEvent
+|InGameEvents     |VictoryEvent     |[VictoryEvent](./API/Events/InGameEvents/VictoryEvent.md)
+|MainMenuEvents   |LoadedEvent      |[MainMenuLoadedEvent](./API/Events/MainMenuEvents/LoadedEvent.md)
+|ProjectileEvents |CreatedEvent     |[ProjectileCreatedEvent](API/Events/Projectile/CreatedEvent.md)
+|ProjectileEvents |DeletedEvent     |[ProjectileDeletedEvent](./API/Events/Projectile/DeletedEvent.md)
+|SimulationEvents |CashChangedEvent |[CashChangedEvent](./API/Events/Simulation/CashChangedEvent.md)
+|SimulationEvents |CashGainedEvent  |[CashGainedEvent](./API/Events/Simulation/CashGainedEvent.md)
+|SimulationEvents |CashLostEvent    |[CashLostEvent](./API/Events/Simulation/CashLostEvent.md)
+|SimulationEvents |DefeatedEvent    |[DefeatedEvent](./API/Events/Simulation/DefeatedEvent.md)
+|SimulationEvents |RoundEndEvent    |[RoundEndEvent](./API/Events/Simulation/RoundEndEvent.md)
+|SimulationEvents |RoundStartEvent  |[RoundStartEvent](./API/Events/Simulation/RoundStartEvent.md)|
+|TowerEvents      |CreatedEvent     |[TowerCreatedEvent](./API/Events/Towers/CreatedEvent.md)|
+|TowerEvents      |DeletedEvent     |[TowerDeletedEvent](./API/Events/Towers/DeletedEvent.md)|
+|TowerEvents      |DeselectedEvent  |[TowerDeselectedEvent](API/Events/Towers/DeselectedEvent.md)|
+|TowerEvents      |SelectedEvent    |[TowerSelectedEvent](./API/Events/Towers/SelectedEvent.md)|
+|TowerEvents      |SoldEvent        |[TowerSoldEvent](./API/Events/Towers/SoldEvent.md)|
+|TowerEvents      |UpgradeEvent     |TowerUpgradeEvent
+|WeaponEvents     |CreatedEvent     |WeaponCreatedEvent
+|WeaponEvents     |DeletedEvent     |WeaponDeletedEvent
