@@ -21,7 +21,7 @@ Next you will see this window. At the top searc for "Class Library" and **make s
 ![picture](https://media.discordapp.net/attachments/619054151967703061/759103567562145812/git_test_1.png?width=942&height=651)
 
 
-**Lastly**, give your project a name, select the location you want it to be at, and **make sure** that **Place solution and project in the same directory** is **CHECKED**. For the most important thing, **make sure you have.NET Framework 4.7.2 or higher selected!!!!!!** BTD6 Mods require that you use at least .NET Framework 4.7.2 and up. When you're ready, click Create and now you're done! 
+**Lastly**, give your project a name, select the location you want it to be at. For the most important thing, **make sure you have.NET Framework 4.7.2 or higher selected!!!!!!** BTD6 Mods require that you use at least .NET Framework 4.7.2 and up. When you're ready, click Create and now you're done! 
 
 ![CreateProject menu.png](https://cdn.discordapp.com/attachments/619054151967703061/759107756543705148/unknown.png)
 
