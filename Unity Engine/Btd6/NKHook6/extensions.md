@@ -4,7 +4,7 @@ The C# programming language has a class extension feature, effectively allowing 
 ---
 # Table of contents:
 
-- ### [Bloon](Bloon.md)
-- ### [Game](Game.md)
-- ### [InGame](InGame.md)
+- ### [Bloon](Extensions/Bloon.md)
+- ### [Game](Extensions/Game.md)
+- ### [InGame](Extensions/InGame.md)
 ---

@@ -6,7 +6,7 @@ These wiki pages are deticated to NKHook6. Check out the files to learn more abo
 
 - ### [Custom Events](Events.md)
 
-- ### [Extensions](./API/Extensions/readme.md)
+- ### [Extensions](extensions.md)
 
 - ### [Mod Update Notifier](https://github.com/TDToolbox/BTD-Docs/blob/master/Unity%20Engine/Btd6/NKHook6/ModUpdater.md)
 

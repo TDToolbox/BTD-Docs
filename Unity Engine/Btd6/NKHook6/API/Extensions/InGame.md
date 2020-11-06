@@ -82,19 +82,3 @@ Il2CppSystem.Collections.Generic.List<BloonToSimulation> bloons = InGame.instanc
 ```
 type: `List<BloonToSimulation>`
 
-## `BloonToSimulation`
-
-you can individually get each `BloonToSimulation` from the List using `foreach`
-
-```cs
-foreach (BloonToSimulation bloonToSimulation in bloons)
-{
-                   
-    bloonToSimulation.method(); //actually use a method
-
-}
-```
-
-### `.getBaseModel()`
-
-type: `bloonModel`
