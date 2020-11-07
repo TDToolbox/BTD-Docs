@@ -2,7 +2,7 @@
 
 you can get a complete list of TowerModels using 
 ```cs
-var TowerModels = InGame.instance.bridge.Model.bloons;
+var TowerModels = InGame.instance.bridge.Model.towers;
 foreach (var towermodel in TowerModels)
     // code here
 }
