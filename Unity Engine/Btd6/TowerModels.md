@@ -1,5 +1,5 @@
 # TowerModels
-Here is a complete list of the known Tower Models for Bloons TD6 v21.1.3307
+Here is a complete list of the known vanilla Tower Models for Bloons TD6 v21.1.3307
 
 | TowerModel                |
 |:-------------------------:|
