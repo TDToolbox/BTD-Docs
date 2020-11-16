@@ -29,7 +29,7 @@ NKHook6 comes with a lot of the necessary tools and features you'll need to use 
 - A lightweight python-like scripting language called Boo, which allows you to make mods even easier than you can already
 - Update notifications so your users can be notified if your mods have an update available
 - Simplistic settings manager that allows your mods to have configurable settings both in game and out of game
-- Built-in event system for hooking the game's code easier and quicker with less work. Similar to Bukkit's event system with Minecraft
+- Built-in event system for hooking the game's code easier and quicker with less work. Inspired by Bukkit's event system with Minecraft
 - A logging system that looks nice and can send messages to user in multiple ways, including in game.
 
 ## How to get started
