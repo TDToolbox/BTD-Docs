@@ -6,7 +6,7 @@ However, on this page you will see what events are available, how to use them, a
 ## Using events
 Before you can use the event system, you have to register a class to it. To do this, simply copy this line of code into your main class and method:
 ```cs
-EventRegistry.subscriber.register(typeof(<Class>));
+EventRegistry.subscriber.listen(typeof(<Class>));
 ```
 and simply replace "\<Class\>" with your class name. For example, your class might look like this:
 ```cs
@@ -15,7 +15,7 @@ public class MyMod : MelonMod
     public override void OnApplicationStart()
     {
         base.OnApplicationStart();
-        EventRegistry.subscriber.register(typeof(MyMod));
+        EventRegistry.subscriber.listen(typeof(MyMod));
     }
 }
 ```
@@ -27,7 +27,7 @@ public class MyMod : MelonMod
     public override void OnApplicationStart()
     {
         base.OnApplicationStart();
-        EventRegistry.subscriber.register(typeof(MyMod));
+        EventRegistry.subscriber.listen(typeof(MyMod));
     }
     [EventAttribute("<EventName>")]
     public static void onEvent(<EventGroup>.<EventClass> e){
@@ -43,7 +43,7 @@ public class MyMod : MelonMod
     public override void OnApplicationStart()
     {
         base.OnApplicationStart();
-        EventRegistry.subscriber.register(typeof(MyMod));
+        EventRegistry.subscriber.listen(typeof(MyMod));
     }
     [EventAttribute("BloonLeakedEvent")]
     public static void onEvent(BloonEvents.LeakedEvent e){
